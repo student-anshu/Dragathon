@@ -1,0 +1,47 @@
+.annu {
+    height: 2%;
+
+    width: 100%;
+
+}
+
+.annu1 {
+    height: 5%;
+
+    margin-left: 20%;
+}
+
+.annu2 {
+    margin-left: 20%;
+
+    height: 5%;
+    width: 100%;
+   
+
+}
+
+
+
+
+.annu3{
+   margin-left: 20%;
+
+    height: 5%;
+    width: 100%;
+
+
+}
+
+
+.r1{
+    color: white;
+  height:1% ;
+    width: 3%;
+    background-color: green;
+}
+.raj1{
+    background-image: url(motorola.png);
+    height: 5%;
+    width: 20%;
+    background-size: cover;
+}
