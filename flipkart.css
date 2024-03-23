@@ -16,15 +16,15 @@
 
     height: 5%;
     width: 100%;
-   
+
 
 }
 
 
 
 
-.annu3{
-   margin-left: 20%;
+.annu3 {
+    margin-left: 20%;
 
     height: 5%;
     width: 100%;
@@ -33,15 +33,27 @@
 }
 
 
-.r1{
+.r1 {
     color: white;
-  height:1% ;
+    height: 1%;
     width: 3%;
     background-color: green;
 }
-.raj1{
-    background-image: url(motorola.png);
-    height: 5%;
-    width: 20%;
-    background-size: cover;
+
+
+
+.r2 {
+    border-style: solid;
+    border-color: grey;
+    height: 20px;
+    width: 2%;
+    border-width: 1px;
+    justify-content: left;
+
+
+}
+
+p {
+    display: flex;
+    text-align: left;
 }
