@@ -1,0 +1,123 @@
+
+body{
+  background-color: darksalmon;
+}
+
+#left{
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: space-around;
+}
+#monster{
+  display: flex;
+
+
+
+
+}
+.monster1{
+  width:200px ;
+  height: 100vh;
+  
+  margin-top: 50px;
+}
+.ram1{
+  width: 100px;
+  height: 100px;
+  background-image: url("rom1.png");
+  background-size: cover;
+}
+.ram2{
+  width: 100px;
+  height: 100px;
+  background-image: url("rom2.png");
+  background-size: cover;
+}
+.ram3{
+  width: 100px;
+  height: 100px;
+  background-image: url("rom3.png");
+  background-size: cover;
+}
+.ram4{
+  width: 100px;
+  height: 100px;
+  background-image: url("rom4.png");
+  background-size: cover;
+
+}
+.ram5{
+  width: 100px;
+  height: 100px;
+  background-image: url("amazon.png");
+  background-size: cover;
+}
+.monster2{
+  height: 500px;
+  width: 600px;
+  background-image: url("amazon.png");
+  background-size: cover;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+
+
+.checked{
+    background-color: rgb(160, 24, 160);
+    color: #f2f2f2;
+    border-radius: 45px;
+  }
+  
+  .check{
+    height: 15px;
+    width: 9px;
+    border-bottom: 3px solid rgb(45, 93, 223);
+    border-right:3px solid rgb(45, 93, 223);
+    transform: rotate(60deg);
+    margin: 12px;
+  }
+  
+  .btn{
+    height: 30px;
+    width: 210px;
+    border-radius: 2px;
+  }
+  .btn2{
+    background-color: rgb(5, 5, 5);
+    color: rgb(250, 250, 250);
+    height: 40px;
+    width: 240px;
+    border-radius: 25px;
+  }
+  .checked1{
+    color: rgb(255, 0, 0);
+  }
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+ 
+
+
+
+
+
+
+
+  
+
+
+  
