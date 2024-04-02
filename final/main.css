@@ -43,12 +43,12 @@ body {
     padding-bottom: 5px;
     z-index: 9999;
     transform: scale(0);
-    transition: transform 1s ease;
+    transition: transform 0.5s ease;
 }
 
 .element-main.show {
     transform: scale(1);
-    transition: transform 1.5s ease;
+    transition: transform 0.3s ease;
 }
 
 .element-box:hover {
