@@ -1,0 +1,204 @@
+body{
+  background-color: whitesmoke;
+  overflow-x: none whitesmoke
+}
+
+#left{
+  width: 100vw;
+  height: 100vh; 
+  display: flex;
+  justify-content: space-evenly;
+}
+#monster{
+  display: flex;
+  margin-left: 100px;
+  justify-content: space-evenly;
+
+
+
+}
+.monster1{ 
+  width:300px ;
+  height: 100vh;
+  
+  margin-top: 0px;
+  margin-right: 100px;
+  
+}
+.ram1{
+  width: 100px;
+  height: 100px;
+  background-image: url("rom1.png");
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+}
+.ram2{
+  width: 100px;
+  height: 100px;
+  background-image: url("rom2.png");
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+}
+.ram3{
+  width: 100px;
+  height: 100px;
+  background-image: url("rom3.png");
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+}
+.ram4{
+  width: 100px;
+  height: 100px;
+  background-image: url("rom4.png");
+  background-size: cover;
+  border: none;
+  border-radius: 10px;
+
+}
+.ram5{
+  width: 100px;
+  height: 100px;
+  background-image: url("amazon.png");
+  background-size: cover;
+  border: none ;
+  border-radius: 10px;
+}
+.monster2{
+  display: flex;
+
+}
+.function1{
+  width:50px;
+  height:100vh;
+
+}
+.tech1{
+width:50px;
+height: 50px;
+border-radius: 50%;
+/* margin-right: 20px; */
+background-color: white;
+position: relative;
+top: 450px;
+right: 150px;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+/* margin-top: 420px; */
+
+}
+
+.tech2{
+  width:50px;
+  height: 50px;
+  border-radius: 50%;
+  /* margin-right: 20px; */
+  background-color: white;
+  position: relative;
+  top: 450px;
+  right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+
+
+
+
+.function2{
+  border-radius: 10px;
+  height: 600px;
+  width: 600px;
+  background-image: url("amazon.png");
+  background-size: cover;
+  
+  position: relative;
+  right:100px;
+  margin-top: 120px;
+  margin-right: 50px;
+  border: none;
+}
+.function3{
+  width:50px;
+height: 100vh;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.checked{
+    background-color: rgb(160, 24, 160);
+    color: #f2f2f2;
+    border-radius: 45px;
+  }
+  
+  .check{
+    height: 15px;
+    width: 9px;
+    border-bottom: 3px solid rgb(45, 93, 223);
+    border-right:3px solid rgb(45, 93, 223);
+    transform: rotate(60deg);
+    margin: 12px;
+  }
+  
+  .btn{
+    height: 30px;
+    width: 210px;
+    border-radius: 2px;
+  }
+  .btn2{
+    background-color: rgb(5, 5, 5);
+    color: rgb(250, 250, 250);
+    height: 40px;
+    width: 240px;
+    border-radius: 25px;
+  }
+  .checked1{
+    color: rgb(255, 0, 0);
+  }
+  .rohan{
+   
+
+
+
+  }
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+ 
+
+
+
+
+
+
+
+  
+
+
+  
