@@ -20,6 +20,298 @@ body {
     overflow-x: hidden;
 }
 
+
+/* product page start here */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    overflow-x: none;
+}
+
+.productpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    z-index: 10000;
+    transform: scale(0);
+    transition: transform 0.5s ease;
+}
+
+.productpage.view {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.proback {
+    cursor: pointer;
+}
+
+#proleft {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+    margin-left: -5vw;
+}
+
+#promonster {
+    display: flex;
+    margin-left: 100px;
+    justify-content: space-evenly;
+}
+
+.promonster1 {
+    width: 175px;
+    height: 90vh;
+    margin-top: 0px;
+    margin-right: 100px;
+}
+
+.proimg {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.proimg.active {
+    opacity: 1;
+}
+
+.proimg>img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    border: none;
+    border-radius: 10px;
+}
+
+.promonster2 {
+    display: flex;
+}
+
+.profunction1 {
+    width: 20px;
+    height: 90vh;
+}
+
+#protech1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 33px 33px 66px #b5b5b5, -33px -33px 66px #ffffff;
+    position: relative;
+    top: 315px;
+    right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 420px; */
+}
+
+#protech2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 33px 33px 66px #b5b5b5, -33px -33px 66px #ffffff;
+    position: relative;
+    top: 315px;
+    right: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profunction2 {
+    border-radius: 10px;
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    position: relative;
+    right: 100px;
+    margin-top: 40px;
+    margin-right: 50px;
+    border: none;
+    overflow: hidden;
+}
+
+.proitem {
+    border-radius: 10px;
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    position: absolute;
+    border: none;
+    opacity: 0;
+}
+
+.proitem.active {
+    z-index: 10;
+    opacity: 1;
+}
+
+.proitem>img {
+    border-radius: 10px;
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    border: none;
+}
+
+.profunction2>img {
+    border-radius: 10px;
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    border: none;
+}
+
+.profunction3 {
+    width: 50px;
+    height: 90vh;
+}
+
+.prochecked {
+    background-color: rgb(160, 24, 160);
+    color: #f2f2f2;
+    border-radius: 45px;
+}
+
+.proright {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 50px;
+    margin-left: -50px;
+}
+
+.procheck {
+    height: 20px;
+    width: 9px;
+    border-bottom: 3px solid rgb(45, 93, 223);
+    border-right: 3px solid rgb(45, 93, 223);
+    transform: rotate(55deg);
+    margin: 12px;
+}
+
+.probtn {
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 600;
+    height: 35px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.probtn2.done {
+    background: #be2edd;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+    transform: translate(-110%) skew(-40deg);
+}
+
+.probtn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: black;
+    color: rgb(250, 250, 250);
+    height: 40px;
+    width: 400px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.probtn2>i {
+    color: rgb(189, 251, 64);
+    scale: 1.2;
+}
+
+.prochecked1 {
+    color: rgb(255, 0, 0);
+}
+
+.propopt {
+    padding-top: 20px;
+}
+
+#protick {
+    display: flex;
+    align-items: center;
+}
+
+#prodetails {
+    display: flex;
+    align-items: center;
+}
+
+.procontent {
+    height: 55px;
+    width: 410px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prostar {
+    height: 100%;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prostar>i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21px;
+    height: 21px;
+    scale: 2;
+}
+
+#prost>i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+}
+
+.protext {
+    height: 100%;
+    width: 88%;
+}
+
+
+/* product page end here */
+
 .element-main {
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -464,9 +756,10 @@ SHOP BY CATEGORY SECTION STARTS HERE
     text-align: center;
 }
 
-.page1 .shop>h1:hover {
+
+/* .page1 .shop>h1:hover {
     color: rgb(245, 100, 0);
-}
+} */
 
 .page1 .shoping-box {
     margin-top: 2%;
@@ -712,7 +1005,7 @@ PAGE 01 ENDS HERE AND PAGE 02 STARTS HERE
     width: 100vw;
     font-family: sans-serif;
     background-color: #f2f2f2;
-    margin-top: 48%;
+    margin-top: 35%;
 }
 
 .page2 h4 {
@@ -744,9 +1037,10 @@ PAGE 01 ENDS HERE AND PAGE 02 STARTS HERE
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     transition: -4s;
     background-color: #f2f2f2;
+    padding: 1%;
 }
 
-.page2 .content :hover {
+.page2 .content img:hover {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.22);
     transform: translate(0px, -8px);
 }

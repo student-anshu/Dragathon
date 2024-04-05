@@ -1,20 +1,3 @@
-const element_menu = document.querySelector('.element-main');
-
-const element_click = document.querySelector('.feature-card');
-
-const element_exit = document.querySelector('#menu-exit');
-
-
-element_click.addEventListener('click', () => {
-    element_menu.classList.add('show');
-})
-
-element_exit.addEventListener('click', () => {
-    element_menu.classList.remove('show');
-})
-
-// product page start here
-
 let proitem = document.querySelectorAll('.profunction2 .proitem');
 let next = document.getElementById('protech2');
 let prev = document.getElementById('protech1');
@@ -69,21 +52,3 @@ probtn2.addEventListener('click', () => {
     }
 
 });
-
-
-const productpage = document.querySelector('.productpage');
-
-const element_box = document.querySelector('.element-box');
-
-const element_back = document.querySelector('.proback');
-
-
-element_box.addEventListener('click', () => {
-    productpage.classList.add('view');
-})
-
-element_back.addEventListener('click', () => {
-    productpage.classList.remove('view');
-})
-
-// product page end here
