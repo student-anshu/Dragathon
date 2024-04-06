@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+.root {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+body {
+    font: menu;
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 0;
+    margin: 0;
+}
+
+.footpanel1 {
+    padding-top: 40px;
+    padding-bottom: 25px;
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(127, 171, 192);
+    text-align: center;
+}
+
+footer .footpanel2 i {
+    padding-right: 10px;
+    padding-top: 13px;
+}
+
+footer input {
+    margin-top: 20px;
+    width: 500px;
+    font-size: larger;
+    height: 45px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.footpanel2 {
+    background-color: rgb(74, 74, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100px;
+    width: 100vw;
+    text-decoration: underline dashed whitesmoke 2px;
+}
+
+.footpanel3 {
+    background-color: blue;
+    height: 360px;
+    width: 100vw;
+    display: flex;
+}
+
+footer ul a {
+    display: block;
+    color: white;
+    font-size: 15px;
+}
+
+.logo {
+    height: 80px;
+    width: 300px;
+}
+
+footer h2 {
+    color: white;
+}
+
+.iconbox {
+    height: 360px;
+    width: 450px;
+    color: white;
+    background-color: navy;
+}
+
+.DOWNLOADBOX {
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin-bottom: 30%;
+    margin-left: 50px;
+    text-align: center;
+}
+
+footer i {
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 40px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    color: white;
+    background-color: brown;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+footer ul {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.sec-drop {
+    padding: 10vw;
+    padding-top: 0px;
+    padding-bottom: 5vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    background-color: #e5f1aa;
+}
+
+.sec-drop h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sec-drop h2 {
+    font-weight: 500;
+    color: navy;
+}
+
+.sec-drop h3 {
+    text-align: center;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+}
+
+#sec-p {
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.btn-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-drop button {
+    background: transparent;
+    border-radius: 30px;
+    width: 30vw;
+    height: 5vw;
+    font-size: x-large;
+}
+
+details[open] summary~* {
+    animation: open 0.3s ease-in-out;
+}
+
+@keyframes open {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary {
+    width: 100%;
+    padding: 1.5rem 0;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.7vw;
+    font-weight: 300;
+    list-style: none;
+}
+
+details summary:after {
+    content: ">";
+    color: black;
+    position: absolute;
+    font-size: 1.50rem;
+    line-height: 0;
+    margin-top: 0.75rem;
+    right: 0;
+    font-weight: 200;
+    transform-origin: center;
+    transition: 400ms linear;
+    rotate: 90deg;
+}
+
+details[open] summary:after {
+    transform: rotate(180deg);
+    font-size: 1.50rem;
+}
+
+details summary {
+    outline: 0;
+}
+
+details p {
+    font-size: 0.95rem;
+    margin: 0 0 1rem;
+}
